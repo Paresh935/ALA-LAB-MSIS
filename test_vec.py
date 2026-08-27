@@ -40,7 +40,6 @@ assert result.elements == [2, 4, 6]
 
 v3 = Vec([1, 2, 3])
 v3 *= 3
-
 assert v3.elements == [3, 6, 9]
 
 
@@ -57,7 +56,6 @@ assert result.elements == [-1, -2, -3]
 
 v4 = Vec([1, 2, 3])
 v4 += Vec([4, 5, 6])
-
 assert v4.elements == [5, 7, 9]
 
 
@@ -65,7 +63,6 @@ assert v4.elements == [5, 7, 9]
 
 
 result = Vec.zeros(5)
-
 assert result.elements == [0, 0, 0, 0, 0]
 
 
@@ -74,7 +71,6 @@ assert result.elements == [0, 0, 0, 0, 0]
 
 
 result = Vec.ones(4)
-
 assert result.elements == [1, 1, 1, 1]
 
 
@@ -82,16 +78,14 @@ assert result.elements == [1, 1, 1, 1]
 
 
 v5 = Vec([3, 4])
-
 assert v5.norm() == 5
 
 
-
+# -------------------------
 # Test dimension
-
+# -------------------------
 
 v6 = Vec([10, 20, 30, 40])
-
 assert len(v6) == 4
 
 

@@ -2,7 +2,7 @@
 
 import timeit
 
-from vec import Vec
+from LAB1.vec import Vec
 
 
 # Vector sizes required by the assignment

@@ -1,6 +1,6 @@
 # This file demonstrates Step 5 of your assignment (Steps.txt)
 
-from vec import Vec
+from LAB1.vec import Vec
 
 
 # Create two vectors

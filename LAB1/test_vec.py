@@ -1,6 +1,6 @@
 # This file includes step 4 (Steps.txt)
 
-from vec import Vec
+from LAB1.vec import Vec
 
 
 # Test vector creation
